@@ -1,0 +1,63 @@
+﻿.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 12em;
+    height: 24em;
+    margin-left: 70em;
+}
+
+    .container h2 {
+        color: white;
+    }
+
+#chuser {
+    margin-top: -12em;
+}
+
+form {
+    text-align: right;
+    background-color: rgba(128, 128, 128, 0.3);
+    padding: 3em 2em;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px -3px rgba(128, 128, 128, 2);
+}
+
+    form input {
+        font-size: 1em;
+        width: 18em;
+        height: 2em;
+        box-shadow: none;
+    }
+
+    form p {
+        color: white;
+    }
+
+    form button {
+        font-size: 1.5em;
+        width: 7em;
+        height: 3em;
+        border-radius: 7px;
+        color: white;
+        font-weight: bold;
+    }
+
+    form a,form b {
+        font-size: 4em;
+        color: white;
+        text-decoration: none;
+    }
+
+button:hover {
+    color: red;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+#signup {
+}

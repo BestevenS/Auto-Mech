@@ -1,0 +1,172 @@
+﻿* {
+    font-family: roboto;
+}
+
+body {
+    background-image: url('images/back.jpg');
+    background-attachment: fixed;
+    height: 100vh;
+}
+#logo img {
+    position: fixed;
+    width: 15.5em;
+    float: left;
+}
+.navbar {
+    position: fixed;
+}
+
+    .navbar a {
+        background-color: rgba(128, 128, 128, 0.09);
+        color: white;
+        text-align: left;
+        font-size: 150%;
+        text-decoration: none;
+    }
+
+#prenav {
+    top: 7.5em;
+    float: left;
+    position: fixed;
+    height: 53.5em;
+    background-image: url('images/backnav.jpg');
+    background-attachment: fixed;
+    width: 15.5em;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+    #prenav img {
+        width: 100%
+    }
+
+header {
+    margin-left: 3.8em;
+    font-size: 400%;
+    color: red;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+    header img {
+        width: 7.55em;
+    }
+
+    header a {
+        color: white;
+        background-color: rgba(128, 128, 128, 0.09);
+        text-decoration: none;
+    }
+
+    header input {
+        font-size: 33%;
+    }
+
+#login {
+    background-color: rgba(128, 128, 128, 0.09);
+}
+
+    #login header a, input {
+        font-size: 40%;
+        color: white;
+        background-color: rgba(128, 128, 128, 0.09);
+        text-decoration: none;
+    }
+
+.preimg {
+    font-size: 230%;
+    margin-left: 15.3%;
+    color: white;
+}
+
+#cont a{
+    text-decoration: none;
+    color:red;
+}
+#cont div ul{
+    font-size: 0.8em;
+}
+
+#predivimg {
+    margin-top: 5%;
+    margin-left: 16%;
+    margin-right: 18%;
+}
+
+.divimg {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+    .divimg div {
+        max-width: 15%;
+    }
+
+    .divimg img, .divimg button {
+        max-height: 950%;
+        background-color: rgba(128, 128, 128, 0);
+        border: none;
+        cursor: pointer;
+    }
+
+        .divimg button h1 {
+            width: 2500%;
+            text-align: left;
+            color: white;
+            background-image: url('images/backnav.jpg');
+        }
+        .divimg button h2 {
+            width: 3000%;
+            font-size: 200%;
+            text-align: left;
+            color: white;
+            background-image: url('images/backnav.jpg');
+        }
+        .divimg button h3 {
+            font-size: 200%;
+            width: 2100%;
+            text-align: left;
+            color: white;
+            background-image: url('images/backnav.jpg');
+        }
+#divimg2 {
+    margin-top: 9%;
+}
+
+#login a:hover, a:hover, .divimg h1:hover, .divimg h2:hover, .divimg h3:hover {
+    color: red;
+}
+
+#footer {
+    margin-right: 10em;
+    background-color: rgba(128, 128, 128, 0.09);
+    font-size: 118%;
+    color: white;
+    text-decoration: none;
+    flex-direction: row;
+    width: 100vw;
+    bottom: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+    #footer nav a {
+        margin-right: 2em;
+        text-align: right;
+    }
+
+    #footer img, button {
+        height: 1.5em;
+        width: 1.5em;
+        background-color: rgba(128, 128, 128, 0);
+        border: none;
+        cursor: pointer;
+    }
+
+    #footer nav {
+        margin-left: 12.8%;
+    }
